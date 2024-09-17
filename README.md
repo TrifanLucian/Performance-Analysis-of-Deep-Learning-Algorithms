@@ -74,12 +74,19 @@ In general, optimizing and training the model is a difficult process that requir
 <p><b>Conclusions</b></p>
 
 Based on the results obtained from the four neural network models (GoogLeNet, AlexNet, DNN, and CNN), the following conclusions can be drawn:
+
 DNN model 84%, a dense network, showed performance that can be improved by optimizing the architecture and hyperparameters. The training time was relatively short. The simple structure without convolutions makes DNN less suitable for image data but may perform well for simpler problems.
+
 The transition from DNN to CNN marked a significant improvement in the ability to process and understand images due to the convolutional layers.
-GoogLeNet achieved significant classification accuracy (92.21%), but the long training time may be a consideration, requiring substantial computational resources. Training times can be optimized, and optimization methods can be explored. GoogLeNet is effective for complex tasks due to its Inception architecture, which uses multiple convolutional blocks in parallel.
+
+GoogLeNet achieved significant classification accuracy (92.21%), but the long training time may be a consideration, requiring substantial computational resources. Training times can be optimized, and optimization methods can be explored. GoogLeNet is effective for complex tasks due to its Inception architecture, which uses multiple convolutional blocks in parallel. 
+
 The simple CNN network showed good results and reduced training time, with an accuracy of 0.918.
+
 There are notable differences in classification performance between apples vs. oranges and apples vs. peaches, suggesting that the visual similarity between classes can influence classification accuracy. The models tend to perform better when the visual differences between classes are more pronounced.
+
 Edges outline the structures and shapes of objects, significantly influencing the performance and accuracy of convolutional neural networks (CNN). These are essential fundamental features for object recognition, which CNNs initially learn from the network's early layers. The greatest edge density difference is observed between the apple and orange classes. Also, the highest accuracy is between apples and oranges compared to apples and peaches for all architectures used for classification (0.848 vs. 0.746 for the DNN, 0.918 vs. 0.823 for the CNN, 0.931 vs. 0.744 for AlexNet, and 0.922 vs. 0.861 for GoogLeNet). Correlating this data, we can conclude that edge density distribution influences network performance.
+
 Through statistical analysis methods, a significant difference between apples and oranges was found for the standard deviation in the vertical histograms, with apples having a higher vertical edge density (5.75) compared to oranges (5.22). Thus, the statistical analyses used (skewness, kurtosis, and standard deviation), extracted from the histograms, validate the classification's effectiveness.
 
 
