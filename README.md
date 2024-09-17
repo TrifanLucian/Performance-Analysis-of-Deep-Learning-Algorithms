@@ -61,10 +61,12 @@ To evaluate network performance, two deep learning algorithms will be used: a de
 In general, optimizing and training the model is a difficult process that requires significant time. Training requires a graphical processing unit (GPU) and millions of training examples. These challenges can be addressed through transfer learning. In this case, two adapted architectures, AlexNet and GoogLeNet, were used to build the models, which were then trained with the datasets (apples, oranges, and peaches).
 
 <p>an example of classification used in the project:</p>
+
 ![image](https://github.com/user-attachments/assets/e7370f61-cd53-4323-89a3-b00567944525)
 ![image](https://github.com/user-attachments/assets/525b76d1-20c7-4de9-845a-0610342930ff)
 
 <p>some achieved performances:</p>
+
 ![image](https://github.com/user-attachments/assets/823c05eb-4dbe-4521-a37d-991ed9fcdf58)
 
 
