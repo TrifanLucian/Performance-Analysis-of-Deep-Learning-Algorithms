@@ -1,1 +1,5 @@
 # Performance-Analysis-of-Deep-Learning-Algorithms
+
+For testing the algorithms, a classification problem is chosen. The three selected classes are apples, oranges, and peaches. Part of the dataset used will be downloaded from the internet, with pre-labeled images, while another part will be downloaded through available APIs. Statistical analyses will be conducted on the images to observe later if they influence the network's performance. The quality of the classification will be checked by the density of edges detected in each image using the Sobel filter. Edges are key features learned by convolutional neural networks (CNN), which is why the verification of deep learning algorithms will be done using statistical metrics such as skewness, kurtosis, and standard deviation, extracted from the edge density histograms.
+
+Four deep neural networks will be created, two using transfer learning and two custom-built, followed by training on the datasets. Comparisons will be made between the models' performances based on different parameters such as the number of epochs, and conclusions will be drawn regarding the optimization of the neural network design process.
