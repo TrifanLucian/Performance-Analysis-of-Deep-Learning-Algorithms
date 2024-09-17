@@ -39,6 +39,15 @@ By detecting edges, convolutional networks can identify fundamental structures i
 
 ![image](https://github.com/user-attachments/assets/4125ce99-635a-41a9-8320-0a3c1eb80029) ![image](https://github.com/user-attachments/assets/7bec1d3a-948a-49c6-81cc-804d511aaf92) ![image](https://github.com/user-attachments/assets/a6feaafe-fb31-46bd-80d1-ee3649afd4fd)
 
+<p><b>Statistical Analyses:</b></p>
+
+Based on histograms (projections), the horizontal and vertical standard deviation is calculated to measure the dispersion or how scattered the values are relative to the mean. In this way, we can evaluate the variation in edge intensity along the two axes.
+
+Additionally, we will measure the skewness of the probability distribution of vertical and horizontal projections/profiles for each image. Positive skewness can indicate that the distribution tail is longer to the right, while negative skewness suggests a longer tail to the left. This allows us to determine the predominance of certain edge directions in each image.
+
+The last statistical measure we perform on the images is kurtosis. It measures the peaks and tails of a distribution compared to a normal distribution. A kurtosis value greater than 3 indicates a distribution with longer tails and sharper peaks, while a kurtosis value less than 3 suggests a flatter distribution with shorter tails. Vertical and horizontal kurtosis can provide insights into the image's uniformity and the extreme variability of edge intensity.
+
+Violin plots combine the features of a boxplot with those of a probability distribution to provide a detailed visualization of data distribution. The width of the violin describes how frequently a value appears in the dataset. Wider regions of the density plot indicate values that occur most often. Two lines are plotted on the violin graph representing the mean and the median. The mean shows the average value of the data, which is sensitive to extreme values, while the median splits the dataset into two equal parts and is not influenced by extreme values. This provides a complete picture of data distribution, including information about centrality and variation.
  
 
 
