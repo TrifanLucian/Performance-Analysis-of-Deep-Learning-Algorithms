@@ -49,7 +49,8 @@ The last statistical measure we perform on the images is kurtosis. It measures t
 
 Violin plots combine the features of a boxplot with those of a probability distribution to provide a detailed visualization of data distribution. The width of the violin describes how frequently a value appears in the dataset. Wider regions of the density plot indicate values that occur most often. Two lines are plotted on the violin graph representing the mean and the median. The mean shows the average value of the data, which is sensitive to extreme values, while the median splits the dataset into two equal parts and is not influenced by extreme values. This provides a complete picture of data distribution, including information about centrality and variation.
 
-examples of generated graphs
+<p>examples of generated graphs</p>
+
 ![image](https://github.com/user-attachments/assets/be2f47cb-854c-47ea-acc4-233d0f1d48f8)
 ![image](https://github.com/user-attachments/assets/f66a45ec-b483-440f-ac91-b4db76443f7a)
 
