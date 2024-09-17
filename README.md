@@ -48,6 +48,27 @@ Additionally, we will measure the skewness of the probability distribution of ve
 The last statistical measure we perform on the images is kurtosis. It measures the peaks and tails of a distribution compared to a normal distribution. A kurtosis value greater than 3 indicates a distribution with longer tails and sharper peaks, while a kurtosis value less than 3 suggests a flatter distribution with shorter tails. Vertical and horizontal kurtosis can provide insights into the image's uniformity and the extreme variability of edge intensity.
 
 Violin plots combine the features of a boxplot with those of a probability distribution to provide a detailed visualization of data distribution. The width of the violin describes how frequently a value appears in the dataset. Wider regions of the density plot indicate values that occur most often. Two lines are plotted on the violin graph representing the mean and the median. The mean shows the average value of the data, which is sensitive to extreme values, while the median splits the dataset into two equal parts and is not influenced by extreme values. This provides a complete picture of data distribution, including information about centrality and variation.
+
+examples of generated graphs
+![image](https://github.com/user-attachments/assets/be2f47cb-854c-47ea-acc4-233d0f1d48f8)
+![image](https://github.com/user-attachments/assets/f66a45ec-b483-440f-ac91-b4db76443f7a)
+
+<p><b>DNN and CNN architectures:</b></p>
+Designing the best models can present unique challenges depending on the classification's particularities.
+
+To evaluate network performance, two deep learning algorithms will be used: a deep neural network without convolutional layers (DNN) and a deep neural network with convolutional layers (CNN).
+
+In general, optimizing and training the model is a difficult process that requires significant time. Training requires a graphical processing unit (GPU) and millions of training examples. These challenges can be addressed through transfer learning. In this case, two adapted architectures, AlexNet and GoogLeNet, were used to build the models, which were then trained with the datasets (apples, oranges, and peaches).
+
+an example of classification used in the project:
+![image](https://github.com/user-attachments/assets/e7370f61-cd53-4323-89a3-b00567944525)
+![image](https://github.com/user-attachments/assets/525b76d1-20c7-4de9-845a-0610342930ff)
+
+some achieved performances:
+![image](https://github.com/user-attachments/assets/823c05eb-4dbe-4521-a37d-991ed9fcdf58)
+
+
+
  
 
 
