@@ -30,3 +30,11 @@ The Apple2Orange and Flickr Image Peaches datasets were used to test the accurac
     <td>176 (15%)</td>
   </tr>
 </table>
+
+![image](https://github.com/user-attachments/assets/759482be-9a9d-4f40-b02f-8c0caf5c2f68)
+![image](https://github.com/user-attachments/assets/5abc7005-ddb5-49af-9348-a6e84345ff1e)
+
+
+ 
+ 
+
