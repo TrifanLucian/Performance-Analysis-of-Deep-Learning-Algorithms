@@ -33,6 +33,13 @@ The Apple2Orange and Flickr Image Peaches datasets were used to test the accurac
 
 ![image](https://github.com/user-attachments/assets/759482be-9a9d-4f40-b02f-8c0caf5c2f68) ![image](https://github.com/user-attachments/assets/5abc7005-ddb5-49af-9348-a6e84345ff1e)
 
+In order to extract structural information from images and to compare the three classes (apples, oranges, and peaches), several statistical calculations will be performed based on edge intensity in the images. To generate them, the Sobel filter will be used, which is a first-order derivative filter. 
+
+By detecting edges, convolutional networks can identify fundamental structures in the image, which are essential for the subsequent recognition of objects.
+
+![image](https://github.com/user-attachments/assets/4125ce99-635a-41a9-8320-0a3c1eb80029) ![image](https://github.com/user-attachments/assets/7bec1d3a-948a-49c6-81cc-804d511aaf92) ![image](https://github.com/user-attachments/assets/a6feaafe-fb31-46bd-80d1-ee3649afd4fd)
+
+ 
 
 
  
