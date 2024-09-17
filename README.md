@@ -7,3 +7,26 @@ Four deep neural networks will be created, two using transfer learning and two c
 
 Dataset:
 The Apple2Orange and Flickr Image Peaches datasets were used to test the accuracy of fruit classification. The original images have a resolution of 256x256 pixels, and during preprocessing, they were resized to either 80x80 pixels or 224x224 pixels depending on the network used. The images are represented in the RGB color model (red, green, and blue). Images from the third class (peaches) were downloaded using the FLICKR API. The algorithm used is a Python script that leverages the Flickr API to search for and download images, as well as resize those images to 256x256 pixels. The "flickr.photos.search" method is used to download images, returning a list of photos matching the search criteria (provided as method parameters) and the corresponding URLs for each photo. The image is then copied from the URL using Python’s urllib module and the urllib.request.urlretrieve method. The number of images in each category is found in the table below:
+
+<table>
+  <tr>
+    <th>Fruit</th>
+    <th>Training Set</th>
+    <th>Test Set</th>
+  </tr>
+  <tr>
+    <td>Apples</td>
+    <td>995 (79%)</td>
+    <td>266 (21%)</td>
+  </tr>
+  <tr>
+    <td>Peaches</td>
+    <td>1019 (80%)</td>
+    <td>248 (20%)</td>
+  </tr>
+  <tr>
+    <td>Oranges</td>
+    <td>999 (85%)</td>
+    <td>176 (15%)</td>
+  </tr>
+</table>
