@@ -67,7 +67,8 @@ In general, optimizing and training the model is a difficult process that requir
 
 <p>some achieved performances:</p>
 
-![image](https://github.com/user-attachments/assets/823c05eb-4dbe-4521-a37d-991ed9fcdf58)
+![image](https://github.com/user-attachments/assets/9d2bb5a4-1a02-4e33-94b3-517be5cd35ef)
+
 
 
 
